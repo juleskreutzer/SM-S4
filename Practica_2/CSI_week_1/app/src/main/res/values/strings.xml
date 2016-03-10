@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CSI_week_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="suspectPhotoDescription">Niels</string>
+    <!-- Info about the suspect -->
+    <string name="suspectInfoName">Name</string>
+    <string name="suspectInfoGender">Gender</string>
+    <string name="suspectInfoAge">Age</string>
+    <string name="suspectInfoBounty">Bounty</string>
+    <string name="suspectName">Niels Meuwissen</string>
+    <string name="suspectGender">Lizzard</string>
+    <string name="suspectAge">20</string>
+    <string name="suspectBounty">$500.000</string>
+    <!-- Detailed info about the suspect -->
+    <string name="suspectInfoDetails">Details</string>
+    <string name="suspectDetails">This is Niels in his natural habitat.\n He loves silver coins. He can be recognized for his short hair and his frightening look.\nNiels is 1m70 and he wears jeans and a t-shirt almost all the time. He likes to tell you the following paragraph when he meets you for the first time:\n\nBacon ipsum dolor amet in nisi swine minim, chuck jerky ut proident meatloaf picanha. Qui tail dolor, sed ut tri-tip deserunt. Ad quis veniam, commodo frankfurter est bresaola beef ribs andouille. Ipsum bresaola dolor dolore. Tempor andouille et venison laboris. Cupim fugiat irure kevin dolore jowl. Biltong occaecat esse tri-tip enim.
+
+Excepteur tenderloin corned beef nostrud eiusmod t-bone in aute lorem andouille bacon labore veniam. Ham est laboris ut pariatur ea. Corned beef est mollit et, incididunt fugiat lorem meatloaf tenderloin ex dolor short loin culpa id. Pork chop swine labore leberkas ground round in tri-tip prosciutto bacon t-bone ribeye salami sirloin tongue ut. Velit elit meatball rump mollit pariatur, consectetur laborum deserunt.
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</string>
+
+    <string name="reportButtonText">Report</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="takePicture">Take Picture</string>
+    <string name="GPSPosition">GPS Position</string>
+    <string name="Call911">Call 911</string>
+    <string name="backButton">Back</string>
+    <string name="sendReport">Send Report</string>
+</resources>
