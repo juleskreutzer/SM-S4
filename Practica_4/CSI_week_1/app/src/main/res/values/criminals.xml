@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Niels Meuwissen</item>
+        <item>Martijn Willems</item>
+        <item>Chewbacca</item>
+    </string-array>
+</resources>

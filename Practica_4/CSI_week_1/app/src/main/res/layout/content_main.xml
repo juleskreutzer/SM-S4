@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorBlack">
+
+    <!-- https://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-keylines-spacing -->
+    <ImageView
+        style="@style/Image.center"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        style="@style/LinearLayout.centerHorizontal"
+       >
+
+        <TableLayout
+            style="@style/TableLayout.center" >
+
+            <TableRow
+                style="@style/TableRow.margin">
+
+                <TextView
+                    style="@style/TextView.start"
+                    android:text="@string/suspectInfoName"
+                    android:id="@+id/tvSuspectInfoName" />
+
+                <TextView
+                    style="@style/TextView.end"
+                    android:text="@string/suspectName"
+                    android:id="@+id/tvSuspectName" />
+            </TableRow>
+            <TableRow
+                style="@style/TableRow">
+
+                <TextView
+                    style="@style/TextView.start"
+                    android:text="@string/suspectInfoGender"
+                    android:id="@+id/tvSuspectInfoGender" />
+
+                <TextView
+                    style="@style/TextView.end"
+                    android:text="@string/suspectGender"
+                    android:id="@+id/tvSuspectGender" />
+
+            </TableRow>
+            <TableRow
+                style="@style/TableRow">
+
+                <TextView
+                    style="@style/TextView.start"
+                    android:text="@string/suspectInfoAge"
+                    android:id="@+id/tvSuspectInfoAge" />
+
+                <TextView
+                    style="@style/TextView.end"
+                    android:text="@string/suspectAge"
+                    android:id="@+id/tvSuspectAge" />
+
+            </TableRow>
+            <TableRow
+                style="@style/TableRow">
+
+                <TextView
+                    style="@style/TextView.start"
+                    android:text="@string/suspectInfoBounty"
+                    android:id="@+id/tvSuspectInfoBounty" />
+
+                <TextView
+                    style="@style/TextView.end"
+                    android:text="@string/suspectBounty"
+                    android:id="@+id/tvSuspectBounty" />
+
+            </TableRow>
+
+        </TableLayout>
+        <LinearLayout
+            style="@style/LinearLayout.bottom">
+
+            <TextView
+                style="@style/TextView"
+                android:text="@string/suspectInfoDetails"
+                android:id="@+id/tvSuspectInfoDetails"/>
+
+            <ScrollView
+                style="@style/ScrollView"
+                android:id="@+id/scrollView" >
+
+                <TextView
+                    style="@style/TextView"
+                    android:text="@string/suspectDetails"
+                    android:id="@+id/tvSuspectDetails" />
+
+            </ScrollView>
+
+            <Button
+                style="@style/Button.gravity"
+                android:text="@string/reportButtonText"
+                android:id="@+id/btnReport" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
