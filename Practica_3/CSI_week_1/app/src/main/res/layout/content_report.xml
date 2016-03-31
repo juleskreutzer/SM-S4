@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nl.nujules.csi_week_1.ReportActivity"
+    tools:showIn="@layout/activity_report"
+    android:background="@drawable/background">
+
+
+    <Button
+        style="@style/Button.Top_Start"
+        android:text="@string/takePicture"
+        android:id="@+id/btnTakePicture"
+        />
+    <Button
+        style="@style/Button.Top_End"
+        android:text="@string/GPSPosition"
+        android:id="@+id/btnGPSPosition"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportSuspectImage"
+        android:src="@drawable/niels"
+        android:layout_below="@+id/btnTakePicture"
+        android:layout_centerHorizontal="true" />
+    <Button
+        style="@style/Button"
+        android:text="@string/Call911"
+        android:id="@+id/btnCall911"
+        android:layout_below="@id/reportSuspectImage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/btnBack"
+        android:text="@string/backButton"
+        android:layout_marginBottom="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/btnSendReport"
+        android:text="@string/sendReport"
+        android:layout_alignTop="@+id/btnBack"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
